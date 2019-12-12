@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/chapaswallpaper32.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas neue';
+}
+
+header{
+    color: rgb(189, 161, 101);
+    background-color: rgb(71, 14, 14);  
+    padding-left: 2%;
+    padding-right: 2%;    
+}
+
+header img{
+    width: 8%;
+    margin: 1em 1em 0.2em 1em;
+    min-width: 50px;
+}
+
+header h1{
+    font-size: 2.9em;
+    float: right;
+    max-height: 50px !important;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-family: 'Girassol';
+}
+
+ul{
+    margin: 0;
+}
+
+.segundalista{
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding-right: 2em;
+}
+
+ul.segundalista li{
+    display: inline-block;
+    margin: 1em;
+}
+
+ul.segundalista li img{
+    width: 50px;
+    height: 50px;
+}
+
+ul.segundalista li:hover{
+    filter: grayscale(90%);
+}
+
+footer{
+    background-color: rgb(71, 14, 14);
+    display: block;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+nav a:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 0.3em;
+}
+nav a{
+    margin-right: 2em;
+    font-size: 1.2em;
+    color: rgb(189, 161, 101) !important;
+}
+nav{
+    text-align: center !important;
+    min-width: 100% !important;
+}
+
+section.container{
+    width: 80%;
+}
+
+.container img{
+    padding: 0;
+    object-fit: cover;
+}
+
+article img, iframe{
+    padding: 1em !important;
+}
+
+article div{
+    padding: 0 !important;
+}
+
+div iframe{
+    min-height: 460px;
+    min-width: 300px;
+}
+
+article{
+    background-color: rgba(15, 15, 15, 0.95);
+    margin: 2em;
+}
+
+.logo{
+    max-width: 40px !important;
+    max-height: 40px !important;
+}
+
+form{
+    background-color: rgba(15, 15, 15, 0.95);
+    max-width: 75%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin: 3em;
+    color: white;
+    border-radius: 1em;
+}
+
+form legend{
+    color: rgb(189, 161, 101) ;
+    padding: 0.8em;
+}
+
+input, label{
+    margin: 1em 1.6em 1.6em 1.6em;
+    border-radius: 0.8em;
+}
+
+
+ul li img{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+ul#contacto li{
+    list-style: none;
+    color: rgb(221, 221, 221);
+}
+
+ul#contacto{
+    margin-top: 4%;
+    padding: 0.5em;
+    font-size: 1.1em;
+}
+
+.label1{
+    display: inline !important;
+}
+
+.input2{
+    float: right;
+    margin-top: 8%;
+    margin-right: 2em;
+}
+
+.input3{
+    margin-left: 0 !important;
+}
+
+
+

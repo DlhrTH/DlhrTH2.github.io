@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/chapaswallpaper32.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas neue';
+}
+
+header{
+    color: rgb(189, 161, 101);
+    background-color: rgb(71, 14, 14);  
+    padding-left: 2%;
+    padding-right: 2%;    
+}
+
+header img{
+    width: 8%;
+    margin: 1em 1em 0.2em 1em;
+    min-width: 50px;
+}
+
+header h1{
+    font-size: 2.9em;
+    float: right;
+    max-height: 50px !important;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-family: 'Girassol';
+}
+
+ul{
+    margin: 0;
+}
+
+.segundalista{
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding-right: 2em;
+}
+
+ul.segundalista li{
+    display: inline-block;
+    margin: 1em;
+}
+
+ul.segundalista li img{
+    width: 50px;
+    height: 50px;
+}
+
+ul.segundalista li:hover{
+    filter: grayscale(90%);
+}
+
+.container{
+    width: 80%;
+}
+
+.container img{
+    max-height: 480px;
+    max-width: 520px;
+    border: solid 0.05em rgb(189, 161, 101);
+    padding: 0;
+    object-fit: cover;
+}
+
+
+article{
+    background-color: rgba(15, 15, 15, 0.90);
+    margin: 3em;
+    padding: 1%;
+}
+
+article.row{
+    height: 30%;
+}
+
+
+footer{
+    background-color: rgb(71, 14, 14);
+    display: block;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+nav a:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 0.3em;
+}
+nav a{
+    margin-right: 2em;
+    font-size: 1.2em;
+    color: rgb(189, 161, 101) !important;
+}
+nav{
+    text-align: center !important;
+    min-width: 100% !important;
+}
+
+div#carouselExampleIndicators{
+    width: 30%;
+    height: 15%;
+}
+
+div.carro{
+    max-height: 500px !important ;
+}
+
+div.carousel-inner{
+    max-height: 540px !important;
+    border-bottom: solid 1.2em rgb(71, 14, 14);
+}
+
+section.container img{
+    width: 70%;
+    height: 70%;
+    max-height: 60%;
+}
+
+section.container article{
+    justify-content: space-around;
+    text-align: center;
+    padding: 2em;
+    color: rgb(218, 218, 218);
+}
+
+section.container article h1{
+    font-size: 1.6em;
+    color: rgb(189, 161, 101) !important;
+}
+
+section.container article p{
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+

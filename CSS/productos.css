@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/chapaswallpaper32.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas neue';
+}
+
+header{
+    color: rgb(189, 161, 101);
+    background-color: rgb(71, 14, 14);  
+    padding-left: 2%;
+    padding-right: 2%;    
+}
+
+header img{
+    width: 8%;
+    margin: 1em 1em 0.2em 1em;
+    min-width: 50px;
+}
+
+header h1{
+    font-size: 2.9em;
+    float: right;
+    max-height: 50px !important;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-family: 'Girassol';
+}
+
+ul{
+    margin: 0;
+}
+
+.segundalista{
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding-right: 2em;
+}
+
+ul.segundalista li{
+    display: inline-block;
+    margin: 1em;
+}
+
+ul.segundalista li img{
+    width: 50px;
+    height: 50px;
+}
+
+ul.segundalista li:hover{
+    filter: grayscale(90%);
+}
+
+footer{
+    background-color: rgb(71, 14, 14);
+    display: block;
+    padding-bottom: 0.7em;
+    padding-top: 0.7em;
+}
+
+nav a:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 0.3em;
+}
+nav a{
+    margin-right: 2em;
+    font-size: 1.2em;
+    color: rgb(189, 161, 101) !important;
+}
+nav{
+    text-align: center !important;
+    min-width: 100% !important;
+}
+
+div.col-md-3 div div img{
+    width: 100% ;
+    height: 100% ;
+}
+
+div.col-md-3 p{
+    margin: 1.2em !important;
+}
+
+section.container{
+    background-color: rgba(255, 255, 255, 0.801);
+    margin-top: 2em;
+    padding: 0.5em;
+    width: 68%;
+    border-radius: 1em;
+}
+
+section.container div.col-md-3{
+    margin: 0.3em;
+}
+
+div.titulo{
+    color: rgb(189, 161, 101);
+    background-color: rgba(15, 15, 15, 0.90);
+    margin: 1em 28% 2em 28%;
+    text-align: center;
+    border-radius: 1em;
+}
+
+div.titulo h1{
+    margin: 0;
+    font-size: 1.8em;
+    padding: 0.5em;
+}
+
+div.container{
+    background-color: rgba(15, 15, 15, 0.90) ;
+    padding: 1em;
+    margin-top: 2em;
+    border: solid 0.05em rgb(189, 161, 101);
+    text-align: center;
+    color: white;
+    width: 76% !important;
+}
+
+div.container img{
+    width: 100%;
+    height: 100%;
+    border: solid 0.05em rgb(189, 161, 101);
+}
+
+div.container h1{
+    margin: 1em;
+}
+
+div.container p{
+    margin: 3em;
+    font-size: 1.3em;
+}
+
+div.titulo2{
+    font-size: 3em;
+    color: rgb(196, 21, 21);
+    background-color: rgba(15, 15, 15, 0.90);
+    text-align: center;
+    margin: 1em 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+div.titulo2 h1{
+    padding: 0.4em;
+    margin-bottom: 0 !important;
+}
+
+.dorado{
+    color: rgb(189, 161, 101);
+}
+
+h1 span{
+    color: rgb(248, 198, 89);
+}
+
+
+/*Div invertido*/
+#f1_container {
+    position: relative;
+    margin: 10px auto;
+    width: 450px;
+    height: 281px;
+    z-index: 1;
+  }
+#f1_container {
+    perspective: 1000;
+}
+#f1_card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.face.back {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+}
+
+p span{
+    color: rgb(71, 14, 14);
+}
+  
